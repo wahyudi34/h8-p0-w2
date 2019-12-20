@@ -11,6 +11,7 @@ var seventh = 'it!';
 console.log(word, second, third, fourth, fifth, sixth, seventh)
 
 
+
 // 2. Index Accessing-1 by 1
 
 var word = 'wow JavaScript is so cool';
@@ -28,4 +29,42 @@ console.log('Fourth Word: ' + fourthWord);
 console.log('Fifth Word: ' + fifthWord);
 
 
+
 // 3. Breaking Sentence {Again} using Substring 
+
+
+var word3 = 'wow JavaScript is so cool';
+var exampleFirstWord3 = word.substring(0, 3);
+var secondWord3 = word.substring(4,13);
+var thirdWord3 = word.substring(15,16);
+var fourthWord3 = word.substring(18,19);
+var fifthWord3 = word.substring(21,24);
+
+console.log('First Word: ' + exampleFirstWord);
+console.log('Second Word: ' + secondWord);
+console.log('Third Word: ' + thirdWord);
+console.log('Fourth Word: ' + fourthWord);
+console.log('Fifth Word: ' + fifthWord);        
+
+
+
+// 4. Breaking Sentence (yet Again) and Count Each Length
+
+var word4 = 'wow JavaScript is so cool';
+var exampleFirstWord4 = word.substring(0, 3);
+var secondWord4 = word.substring(3, 13); 
+var thirdWord4 = word.substring(15, 16); 
+var fourthWord4 = word.substring(18, 19); 
+var fifthWord4 = word.substring(21, 24); 
+
+var firstWordLength = exampleFirstWord4.length;
+var secondWordLength = secondWord4.length
+var thirdWordLength = thirdWord4.length
+var fourthWordLength = fourthWord4.length
+var fifthWordLength = fifthWord4.length
+
+console.log('First Word: ' + exampleFirstWord + ', with length: ' + firstWordLength);
+console.log('Second Word: ' + secondWord + ', with length: ' + secondWordLength);
+console.log('Third Word: ' + thirdWord + ', with length: ' + thirdWordLength);
+console.log('Fourth Word: ' + fourthWord + ', with length: ' + fourthWordLength);
+console.log('Fifth Word: ' + fifthWord + ', with length: ' + fifthWordLength);    
