@@ -3,5 +3,5 @@ var bulan = 5; // assign nilai variabel bulan disini! (dengan angka antara 1 - 1
 var tahun= 2020; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
 switch(tanggal, bulan, tahun) {
-    case tanggal : { console.log(tanggal); break; }
+    case tanggal, bulan, tahun : { console.log(tanggal, bulan, tahun); break }
 }
