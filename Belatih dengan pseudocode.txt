@@ -1,0 +1,40 @@
+Pseudocode: 
+
+1. Newton Second Law: 
+
+  STORE 'massa' with 600 kg
+  STORE 'percepatan' with 2m/s2
+  STORE 'resultan gaya' without any value
+
+  CALCULATE 'massa' multiply 'percepatan'
+  SET 'resultan gaya' value with calculation result
+  DISPLAY 'resultan gaya'
+
+2. Tahun Kabisat 
+  STORE 'tahun kabisat' with any number
+
+  IF ((tahun kabisat%4===0 && tahun kabisat/100!==0) || (tahun kabisat%4===0 && tahun kabisat/100=0 && tahun kabisat/400=0)) 
+    SHOW 'tahun kabisat'
+  ELSE 
+    'bukan tahun kabisat'
+
+3. Laundry Day
+  STORE 'pakaian' with 0
+
+  WHILE 'pakaian' <=20
+    ADD 'pakaian' by 1
+  DISPLAY 'pakaian penuh'
+  DO 'cuci pakaian'
+
+4. Periksa Kuku
+  STORE 'kuku' with any value
+  STORE 'murid' with 0
+
+  WHILE 'murid' <= 40
+  ADD 'murid' by 1
+    IF (kuku === panjang) 
+      DO 'hukum siswa/siswi'
+    ELSE 
+      DO 'puji siswa/siswi'
+
+     
