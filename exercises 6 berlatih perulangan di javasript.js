@@ -14,6 +14,7 @@ while (kedua >= 2) {
     console.log(kedua + ' I will become fullstack developer')
     kedua -= 2;
 }
+third
 
 
 //2. Melakukan Looping Menggunakan For
@@ -26,6 +27,7 @@ for(var i=0; i<=20; i++) {
 for(var i=20; i>0; i--) {
     console.log([i] + ' I will become fullstack developer')
 }
+
 
 //3. Angka Ganjil dan Genap 
 
@@ -44,29 +46,30 @@ var counter1 = 1
 var counter2 = 1
 var counter3 = 1
 
-for(var i=1; i<100; i+=2) {
-    if(counter1 === 3) {
-        console.log(counter1 + ' KELIPATAN ' + [i])
+
+for(var i=0; i<100; i++) {
+    if(counter1%3 === 0) {
+        console.log(counter1 + ' KELIPATAN ' + 3)
     } else {
         console.log("''")
     }
-    counter1 +=2;
+    counter1+=2;
 }
 
-for(var i=1; i<100; i+=5) {
-    if(counter2 === 6) {
-        console.log(counter2 + ' KELIPATAN ' + [i])
+for(var i=0; i<100; i++) {
+    if(counter2%6 === 0) {
+        console.log(counter2 + ' KELIPATAN ' + 6)
     } else {
         console.log("''")
     }
-    counter2 +=5;
+    counter2+=5;
 }
 
-for(var i=1; i<100; i+=9) {
-    if(counter3 === 10) {
-        console.log(counter3 + ' KELIPATAN ' + [i])
+for(var i=0; i<100; i++) {
+    if(counter3%10 === 0) {
+        console.log(counter3 + ' KELIPATAN ' + 10)
     } else {
         console.log("''")
     }
-    counter3 +=9;
+    counter3+=9;
 }
