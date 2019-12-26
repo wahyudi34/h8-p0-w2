@@ -16,7 +16,6 @@ while (kedua >= 2) {
 }
 third
 
-
 //2. Melakukan Looping Menggunakan For
 
 console.log('LOOPING PERTAMA')
@@ -27,7 +26,6 @@ for(var i=0; i<=20; i++) {
 for(var i=20; i>0; i--) {
     console.log([i] + ' I will become fullstack developer')
 }
-
 
 //3. Angka Ganjil dan Genap 
 
